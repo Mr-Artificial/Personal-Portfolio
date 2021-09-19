@@ -40,9 +40,9 @@ export const TitleContent = styled.div`
 
 
 export const HeaderThree = styled.h3`
-      font-weight: 500;
-      letter-spacing: 2px;
-      color: #9cc9e3;
+      font-weight: 450;
+      letter-spacing: 1px;
+      color: #fcfcfc;
       padding: .5rem 0;
       font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -52,7 +52,7 @@ export const Hr = styled.hr`
       height: 3px;
       margin: 20px auto;
       border: 0;
-      background: #d0bb57;
+      background: #6f2232;
 `;
 
 export const Intro = styled.div`
@@ -70,7 +70,7 @@ export const CardInfo = styled.p`
       width: 100%;
       padding: 0 50px;
       color: #e4e6e7;
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 24px;
       text-align: justify;
       @media ${(props) => props.theme.breakpoints.sm} {
@@ -92,11 +92,11 @@ export const ExternalLinks = styled.a`
     color:#d4c0c0;
     font-size: 1.6rem;
     padding:1rem 1.5rem;
-    background: #6b3030;
+    background: hsl(347,53%,28%);
     border-radius: 15px;
     transition: 0.5s;
     &:hover{
-      background: #801414;
+      background: #940741;
     
     }
 `;

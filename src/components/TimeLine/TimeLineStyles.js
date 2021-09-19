@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: #1A1A1D;
   padding: 0rem;
   list-style:none;
   display: flex;
@@ -40,7 +40,7 @@ export const CarouselMobileScrollNode = styled.div`
 `
 
 export const CarouselItem = styled.div`
-  background: #0F1624;
+  background: #1A1A1D;
   border-radius: 3px;
   max-width: 196px;
 
@@ -51,7 +51,7 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
-    background: #0E131F;
+    background: #1A1A1D;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
@@ -66,7 +66,7 @@ export const CarouselItem = styled.div`
 
 export const CarouselItemTitle = styled.h4`
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
